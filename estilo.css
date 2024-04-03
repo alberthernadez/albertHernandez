@@ -75,4 +75,9 @@
     padding: 50px 30px 05px 30px;
 }
 
+.nombresecundarios{
+    border: solid 2px #000;
+    display: inline-block;
+    background-color: brown;
+}
 
