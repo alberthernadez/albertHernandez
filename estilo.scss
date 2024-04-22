@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 
+
 .nav {
     background-color: brown;
     padding: 20px;
 }
 
+
 .nav-link {
     text-decoration: none;
     color: #fff;
 }
+
 
 .imagenPrincipal {
     display: flex;
@@ -21,17 +24,21 @@
     padding-top: 2%;
 }
 
+
 .descarga {
     padding-top: 10px;
 }
 
+
 .descarga a {
     text-decoration: none;
 }
-
 .btn-primary {
     background: brown;
 }
+
+
+
 
 .bi-instagram {
     text-decoration: none;
@@ -39,11 +46,13 @@
     font-size: 30px;
 }
 
+
 .bi-youtube {
     text-decoration: none;
     color: red;
     font-size: 30px;
 }
+
 
 /* .imagenUno{
     padding: 50px;
@@ -64,24 +73,25 @@
     padding: 10px;
 }
 
-.campeones {
+
+.campeones{
     padding-top: 10px;
 }
-
-.float-start {
+.float-start{
     border: solid 2px #000;
     display: inline-block;
     margin: 0px 15px 5px 10px;
 }
 
-.carriles {
-    padding: 50px 30px 5px 30px;
+
+.carriles{
+    padding: 50px 30px 05px 30px;
 }
 
-.nombresecundarios {
+
+.nombresecundarios{
     border: solid 2px #000;
     display: inline-block;
     background-color: brown;
 }
 
-/*# sourceMappingURL=estilo.css.map */
