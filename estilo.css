@@ -1,48 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .nav {
-    background-color: brown;
-    padding: 20px;
+  background-color: brown;
+  padding: 20px;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .imagenPrincipal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
 }
 
 .descarga {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .descarga a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn-primary {
-    background: brown;
+  background: brown;
 }
 
 .bi-instagram {
-    text-decoration: none;
-    color: #a714dc;
-    font-size: 30px;
+  text-decoration: none;
+  color: #a714dc;
+  font-size: 30px;
 }
 
 .bi-youtube {
-    text-decoration: none;
-    color: red;
-    font-size: 30px;
+  text-decoration: none;
+  color: red;
+  font-size: 30px;
 }
 
 /* .imagenUno{
@@ -61,27 +61,27 @@
     grid
 } */
 .nota {
-    padding: 10px;
+  padding: 10px;
 }
 
 .campeones {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .float-start {
-    border: solid 2px #000;
-    display: inline-block;
-    margin: 0px 15px 5px 10px;
+  border: solid 2px #000;
+  display: inline-block;
+  margin: 0px 15px 5px 10px;
 }
 
 .carriles {
-    padding: 50px 30px 5px 30px;
+  padding: 50px 30px 5px 30px;
 }
 
 .nombresecundarios {
-    border: solid 2px #000;
-    display: inline-block;
-    background-color: brown;
+  border: solid 2px #000;
+  display: inline-block;
+  background-color: brown;
 }
 
 /*# sourceMappingURL=estilo.css.map */
