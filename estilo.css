@@ -1,7 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.nav {
+  background-color: brown;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav {
@@ -14,11 +18,10 @@
   color: #fff;
 }
 
-.imagenPrincipal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .descarga {
@@ -33,33 +36,6 @@
   background: brown;
 }
 
-.bi-instagram {
-  text-decoration: none;
-  color: #a714dc;
-  font-size: 30px;
-}
-
-.bi-youtube {
-  text-decoration: none;
-  color: red;
-  font-size: 30px;
-}
-
-/* .imagenUno{
-    padding: 50px;
-    height: 40px;
-}
-
-
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat( 2 250px);
-}
-.col1{
-    grid-column: 1fr;
-    grid
-} */
 .nota {
   padding: 10px;
 }
@@ -82,6 +58,42 @@
   border: solid 2px #000;
   display: inline-block;
   background-color: brown;
+}
+
+.bi-instagram {
+  text-decoration: none;
+  color: #a714dc;
+  font-size: 30px;
+}
+
+.bi-youtube {
+  text-decoration: none;
+  color: red;
+  font-size: 30px;
+}
+
+.imagenPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=estilo.css.map */
