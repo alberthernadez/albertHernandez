@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+$colorPrincipal:#ffffff;
+$colorSecundario: #000;
 
 .descarga {
     padding-top: 10px;
 }
 
+.blanco {
+    color: $colorPrincipal;
+}
 
 .descarga a {
     text-decoration: none;
@@ -18,9 +23,6 @@
     background: brown;
 }
 
-
-
-
 .nota {
     padding: 10px;
 }
@@ -28,7 +30,9 @@
 
 .campeones{
     padding-top: 10px;
+    color: $colorPrincipal;
 }
+
 .float-start{
     border: solid 2px #000;
     display: inline-block;
@@ -46,3 +50,34 @@
     display: inline-block;
     background-color: brown;
 }
+
+.tituloDos{
+    text-align: center;
+    padding-top: 150px;
+    color: $colorPrincipal;
+}
+
+.tituloTres{
+    text-align: center;
+    padding-top: 20px;
+    color: $colorPrincipal;
+}
+
+.tituloCuatro{
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    color: $colorPrincipal;
+}
+
+
+.desarrollo{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color:$colorPrincipal;
+}
+
+h3{
+    color: $colorPrincipal;
+}
+
